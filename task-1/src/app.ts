@@ -5,8 +5,9 @@ import dotenv from 'dotenv';
 import transactionRouter from './routes/transactionRoutes';
 
 const app: Application = express();
-const PORT: number = 3000;
 dotenv.config();
+
+const PORT = process.env.PORT! || 3000;
 
 // Connect to MongoDB using the new options
 mongoose.connect(process.env.MONGODB_URI!, {
