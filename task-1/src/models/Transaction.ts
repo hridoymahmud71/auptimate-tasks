@@ -1,18 +1,27 @@
-// src/models/Transaction.ts
-import mongoose, { Document } from 'mongoose';
+import mongoose, { Document, Model, Schema } from "mongoose";
 
-const transactionSchema = new mongoose.Schema({
-  investorID: Number,
-  syndicateID: String,
-  amount: Number,
-  transactionDate: Date,
-});
+// Custom TypeScript type for a two-digit decimal
 
-export interface ITransaction extends Document {
+interface ITransaction extends Document {
   investorID: number;
   syndicateID: string;
   amount: number;
   transactionDate: Date;
 }
 
-export const TransactionModel = mongoose.model<ITransaction>('Transaction', transactionSchema);
+const transactionSchema: Schema = new Schema<ITransaction>({
+  investorID: { type: Number, required: true },
+  syndicateID: { type: String, required: true },
+  amount: {
+    type: Number,
+    required: true,
+  },
+  transactionDate: { type: Date, required: true },
+});
+
+const Transaction: Model<ITransaction> = mongoose.model<ITransaction>(
+  "Transaction",
+  transactionSchema
+);
+
+export { Transaction, ITransaction };

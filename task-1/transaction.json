@@ -1,0 +1,25 @@
+[
+    { "investorID": 1, "syndicateID": "ABC123", "amount": 5000.00, "transactionDate": "2022-01-15" },
+    { "investorID": 1, "syndicateID": "DEF456", "amount": 3000.00, "transactionDate": "2022-02-20" },
+    { "investorID": 2, "syndicateID": "ABC123", "amount": 4000.00, "transactionDate": "2022-03-10" },
+    { "investorID": 2, "syndicateID": "GHI789", "amount": 2500.00, "transactionDate": "2022-04-05" },
+    { "investorID": 3, "syndicateID": "ABC123", "amount": 6000.00, "transactionDate": "2022-05-15" },
+    { "investorID": 4, "syndicateID": "XYZ987", "amount": 3500.00, "transactionDate": "2022-06-10" },
+    { "investorID": 3, "syndicateID": "DEF456", "amount": 2000.00, "transactionDate": "2022-07-20" },
+    { "investorID": 5, "syndicateID": "JKL321", "amount": 4500.00, "transactionDate": "2022-08-25" },
+    { "investorID": 1, "syndicateID": "XYZ987", "amount": 8000.00, "transactionDate": "2022-09-30" },
+    { "investorID": 6, "syndicateID": "MNO654", "amount": 7500.00, "transactionDate": "2022-10-15" },
+    { "investorID": 7, "syndicateID": "ABC123", "amount": 5200.00, "transactionDate": "2022-11-20" },
+    { "investorID": 4, "syndicateID": "MNO654", "amount": 6300.00, "transactionDate": "2022-12-05" },
+    { "investorID": 5, "syndicateID": "JKL321", "amount": 5100.00, "transactionDate": "2023-01-15" },
+    { "investorID": 8, "syndicateID": "GHI789", "amount": 2900.00, "transactionDate": "2023-02-20" },
+    { "investorID": 9, "syndicateID": "XYZ987", "amount": 7200.00, "transactionDate": "2023-03-10" },
+    { "investorID": 7, "syndicateID": "DEF456", "amount": 1800.00, "transactionDate": "2023-04-05" },
+    { "investorID": 10, "syndicateID": "GHI789", "amount": 3100.00, "transactionDate": "2023-05-15" },
+    { "investorID": 11, "syndicateID": "ABC123", "amount": 4500.00, "transactionDate": "2023-06-20" },
+    { "investorID": 12, "syndicateID": "XYZ987", "amount": 6000.00, "transactionDate": "2023-07-25" },
+    { "investorID": 13, "syndicateID": "JKL321", "amount": 5100.00, "transactionDate": "2023-08-30" },
+    { "investorID": 14, "syndicateID": "DEF456", "amount": 4000.00, "transactionDate": "2023-09-10" },
+    { "investorID": 15, "syndicateID": "MNO654", "amount": 3500.00, "transactionDate": "2023-10-15" }
+  ]
+  
