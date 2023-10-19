@@ -19,9 +19,9 @@ const transactionSchema: Schema = new Schema<ITransaction>({
   transactionDate: { type: Date, required: true },
 });
 
-const Transaction: Model<ITransaction> = mongoose.model<ITransaction>(
+const TransactionModel: Model<ITransaction> = mongoose.model<ITransaction>(
   "Transaction",
   transactionSchema
 );
 
-export { Transaction, ITransaction };
+export { TransactionModel, ITransaction };
